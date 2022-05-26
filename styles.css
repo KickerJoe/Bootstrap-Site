@@ -63,9 +63,28 @@ body {
 
    .carousel-caption{
     color: rgba(255, 255, 255);
-    background: rgba(0, 0, 0, 0.5);;
+    background: rgba(0, 0, 0, 0.15);;
    }
 
-   .content{
+   .divider{
        border-bottom: 1px ridge;
    }
+
+   .infoFooter{
+       background-color: rgba(237, 237, 237, 0.888);
+       padding: 20px 0;
+   }
+
+   .btn-link, .btn-social-icon, .styled{
+       color:black;
+   }
+
+   .btn-link:hover, .btn-social-icon:hover, .styled:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.navbar.scrolled {
+    background-color: rgba(237, 237, 237, 0.9);
+}
+
