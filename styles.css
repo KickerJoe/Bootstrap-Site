@@ -18,6 +18,13 @@ body {
     color: red;
     }
 
+#jumboHeader{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    backdrop-filter: blur(15px);
+    border: solid 3px black; 
+}
+
 .jumbotron {
     position: relative;
     background:none;
