@@ -48,7 +48,21 @@ body {
       z-index: -1;
   }
 
-  .carousel-item{
-      width: 100%;
-      height: 400px;
+  #textInfo1{
+      height: 300px;
   }
+
+  img {
+    width: 100%;
+    height: 360px;
+  }
+
+  .carousel-item {
+      width: 100%;
+      height: 420px;
+   }
+
+   .carousel-caption{
+    color: rgba(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);;
+   }
