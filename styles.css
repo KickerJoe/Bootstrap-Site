@@ -88,3 +88,7 @@ body {
     background-color: rgba(237, 237, 237, 0.9);
 }
 
+.btn-secondary {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
