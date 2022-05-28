@@ -52,9 +52,7 @@ body {
       height: 300px;
   }
 
-  .carousel{
-      border: solid 1px black;
-  }
+  
 
   .carousel-item {
       width: 100%;
