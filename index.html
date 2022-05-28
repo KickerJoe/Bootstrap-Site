@@ -153,7 +153,7 @@
                         <p class = "lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, porro aspernatur aut repellat delectus assumenda officia debitis ea molestiae quod odio nisi veritatis perferendis, similique asperiores ab possimus natus ad?
                                 Vero earum nisi ea fuga esse placeat, officiis vitae, neque laudantium pariatur quaerat hic corrupti sunt. 
                         </p>
-                        <button type="button" class="btn btn-secondary">Sign Up</button>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#trainerModal">Meet Our Trainers</button>
                     </div>
                 </div>
             </div>
@@ -164,6 +164,54 @@
                         <img class="img-fluid" src="projectimages/nathan-dumlao-NXMZxygMw8o-unsplash.jpg" alt="fitness">
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!--Modal Trainers-->
+        <div class="modal fade" id="trainerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Trainers</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="projectimages/emily-sea-coiWR0gT8Cw-unsplash.jpg" class="card-img-top img-responsive" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Emily</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis velit, numquam consequatur, maxime debitis sit iure tempore voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="projectimages/madison-lavern-4gcqRf3-f2I-unsplash.jpg" class="card-img-top img-responsive" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Monica</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis velit, numquam consequatur, maxime debitis sit iure tempore voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="projectimages/abdullah-ali-L2Nw-onZOX4-unsplash.jpg" class="card-img-top img-responsive" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Ethan</h5>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis velit, numquam consequatur, maxime debitis sit iure tempore voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
             </div>
         </div>
     </section>
@@ -197,11 +245,11 @@
     </footer> 
     
     <!-- Modal Email-->
-    <div class="modal fade" id="mailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="mailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Get on Our Mailing List</h5>
+                    <h5 class="modal-title" id="emailModalLabel">Get on Our Mailing List</h5>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -234,6 +282,8 @@
             </div>
         </div>
     </div>
+
+    
     
     
 
